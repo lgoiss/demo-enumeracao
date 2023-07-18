@@ -2,9 +2,9 @@ api/authentication/loginsql
 admin/
 usuario
 usuario/login
-endereco
-escritorio
-processo
+endereco/
+escritorio/
+processo/
 arquivo
 testes/go
 home/
@@ -14,3 +14,4 @@ api/User
 api/updatedocs
 api/TodoItem
 api/TodoItem/@id
+luzivan
