@@ -2,7 +2,7 @@ import requests
 import json
 
 
-with open("users.txt", "r") as arquivo:
+with open("wordlist/users.txt", "r") as arquivo:
     linhas = arquivo.readlines()
 
     for linha in linhas:
