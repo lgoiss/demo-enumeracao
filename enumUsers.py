@@ -13,4 +13,4 @@ with open("wordlist/users.txt", "r") as arquivo:
         mensagem = r.text
         if (mensagem == "Senha Incorreta!"):
             with open("usuarios_validos.txt", "a") as resultado:
-                resultado.write("\nUsuário " + nome_usuario + " é válido")
+                resultado.write(nome_usuario+"\n")
